@@ -1,0 +1,10 @@
+# Site settings
+title: Банька с пауками
+email: vovablr2@rambler.ru
+description: "Небольшой бложек об арахнологии, термальной терапии и вечности"
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

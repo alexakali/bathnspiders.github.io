@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Загрузка Win7 без понтов"
+date:   2014-05-20 10:43:01
+categories: win7 
+---
+
+Иногда нужно чтобы windows грузилась без всяких лого и т.п. Делаем:
+
+1. Поставить No GUI галочку в msconfig
+
+2. С помощью приложения Win7LogonBackgroundChanger можно изменить фон
+экрана приветствия
+
+3. Удалить лого внизу экрана приветствия путем замены bitmap в 
+Windows\Branding\Basebrd\basebrd.dll
+
+4. Установить прозрачные курсоры в HKEY_USERS/\.DETAIL\Control Panel\Cursors и заменить bitmap в Windows\system32\imageres.dll
+
+5. Поправить строки в Windows\system32\ru-RU\winlogon.exe.mui, после выполнить mcbuilder в cmd.exe
